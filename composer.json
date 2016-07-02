@@ -1,0 +1,18 @@
+{
+  "name": "jamset/zmq_php_basic",
+  "description": "Basic classes of ZMQ using for PHP",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jam Set"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FractalBasic\\ZMQ\\": "src/"
+    }
+  }
+}
