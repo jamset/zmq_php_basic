@@ -3,7 +3,7 @@
   "description": "Basic classes of ZMQ using for PHP",
   "require": {
     "php": ">=5.5.9",
-    "jamset/inventory_basic":"^0"
+    "jamset/inventory_basic":"dev-master"
   },
   "license": "MIT",
   "authors": [
