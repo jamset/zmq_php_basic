@@ -32,5 +32,17 @@ abstract class BaseZMQ extends BaseModule
         $this->context = $context;
     }
 
+    /**
+     * @return null
+     */
+    public function initZMQContext()
+    {
+        if (is_null($this->context)) {
+            $this->context = new \ZMQContext();
+        }
+
+        return null;
+    }
+
 
 }
