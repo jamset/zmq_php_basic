@@ -7,7 +7,9 @@
  */
 namespace FractalBasic\ZMQ\Abstracts;
 
-abstract class BaseZMQ
+use FractalBasic\Inventory\Abstracts\BaseModule;
+
+abstract class BaseZMQ extends BaseModule
 {
     /**
      * @var \ZMQContext
